@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --cor-principal:#00268C;
+    --cor1:#0078c7;
+    --cor2:#009bca;
+    --cor3:#00bdc1;
+    --cor4:#26dcb5;
+    --preto:#000000;
+    --branco:#FFFFFF;
+}
+
+body {
+    font-size: 1rem;
+    font-family:Playfair+Display; / *o nome da sua fonte*/
+}
