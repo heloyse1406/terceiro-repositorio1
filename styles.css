@@ -12,5 +12,29 @@
 
 body {
     font-size: 1rem;
-    font-family:Playfair+Display; / *o nome da sua fonte*/
+    font-family:Playfair+Display; /*o nome da sua fonte*/
+}
+
+#contato{
+    background:var(--cor-principal);
+    background-size: cover;
+    padding: 0cap;
+}
+
+.formulario{
+   background-color:var(--cor3);
+   padding: 2rem;
+   border-radius: 10px;
+   box-shadow: 0 0 10px #FFFFFF(0,0,0,0.1);
+   font-weight: bold;
+}
+
+.formulario{
+ background-color: var(--cor2);
+ border: none;
+ fort-weight: bold;
+}
+
+.formulario{
+    background-color:var(--cor4);
 }
