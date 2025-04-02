@@ -15,6 +15,36 @@ body {
     font-family:Playfair+Display; /*o nome da sua fonte*/
 }
 
+section{
+    padding-bottom: 5rem;
+}
+
+.displa-4 {
+    text-shadow: -5px 5px var(--cor1);
+}
+
+#natureza {
+    position: relative;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    background: var(--branco);
+    background-size: 180px 180px;
+}
+
+#natureza .conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1; 
+}
+
+
+
+
+
+
+
 #contato{
     background:var(--cor-principal);
     background-size: cover;
