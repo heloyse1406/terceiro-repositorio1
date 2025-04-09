@@ -5,7 +5,8 @@
     --cor1:#0078c7;
     --cor2:#009bca;
     --cor3:#00bdc1;
-    --cor4:#26dcb5;
+    --cor4:#0fd5be;
+    --cor5:#03db8c;
     --preto:#000000;
     --branco:#FFFFFF;
 }
@@ -17,6 +18,42 @@ body {
 
 section{
     padding-bottom: 5rem;
+}
+
+header {
+    background-color: var(--cor5);
+}
+
+.nav-link {
+    color:var(--branco);
+    font-weight: 600;
+}
+
+.inicio-fundo{
+    background-image:url(hermelin-am-weg-stoat.webp);
+    background-size: cover ;
+    background-position: right;
+    border-radius: 80px;
+    width: 100%;
+    height: 606px;;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.esquerda-conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:1rem;
+}
+
+.botao-inicio{
+    background-color: var(--cor5);
+    border-radius: 30px;
+    border: nome;
+    width: 14em;
+    height: 3em;
+    align-items: center;
 }
 
 .displa-4 {
