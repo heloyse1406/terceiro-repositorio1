@@ -30,7 +30,7 @@ header {
 }
 
 .inicio-fundo{
-    background-image:url(hermelin-am-weg-stoat.webp);
+    background-image:url(animal.webp);
     background-size: cover ;
     background-position: right;
     border-radius: 80px;
@@ -76,12 +76,6 @@ header {
     z-index: 1; 
 }
 
-
-
-
-
-
-
 #contato{
     background:var(--cor-principal);
     background-size: cover;
@@ -96,12 +90,73 @@ header {
    font-weight: bold;
 }
 
-.formulario{
+.formulario button {
  background-color: var(--cor2);
  border: none;
  fort-weight: bold;
 }
 
-.formulario{
+.form-control {
     background-color:var(--cor4);
+}
+
+.menu-acessibilidade {
+    position: fixed;
+    top: 2rem;
+    right: 20px;
+    z-index: 1000;
+}
+
+.rotacao-botao {
+  transform: rotate(-90deg);
+  transform-origin: right center;
+}
+
+.opcoes-acessibilidade {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.opcoes-acessibilidade button {
+    margin-bottom: 5px; 
+}
+
+.apresenta-lista {
+    display: none;
+}
+
+.alto-contraste{
+    background-color: var(--cor4);
+    color: var(--cor2);
+}
+
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario {
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+.alto-contraste .nav-link {
+    color: var(--cor5);
+}
+
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary {
+    background-color: var(--cor3);
+    color: var(--preto);
+}
+
+.alto-contraste #natureza {
+    background: none;
+}
+
+.alto-contraste #galeria {
+    background-color: var(--preto);
+}
+
+.alto-contraste .fundo-galeria {
+    background: none;
 }

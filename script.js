@@ -21,6 +21,5 @@ document.addEventListener('DOMContentLoaded', function() {
      diminuiForteBotao.addEventListener('click', function(){
         tamanhoAtualForte -= 0.1;
         document.body.style.fontSize = '$(tamanhoAtualForte}rem'
-     })
-    
+     })    
 })
