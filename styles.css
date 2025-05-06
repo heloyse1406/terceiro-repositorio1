@@ -30,7 +30,7 @@ header {
 }
 
 .inicio-fundo{
-    background-image:url(animal.webp);
+    background-image: url(animal.webp);
     background-size: cover ;
     background-position: right;
     border-radius: 80px;
