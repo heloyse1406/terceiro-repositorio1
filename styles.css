@@ -30,7 +30,7 @@ header {
 }
 
 .inicio-fundo{
-    background-image: url(rio.jpg);
+    background-image: url(img/rio.jpg);
     background-size: cover ;
     background-position: right;
     border-radius: 80px;
