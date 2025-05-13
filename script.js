@@ -16,10 +16,10 @@ document.addEventListener('DOMContentLoaded', function() {
     let tamanhoAtualForte = 1;
      aumenteForteBotao.addEventListener('click', function(){
         tamanhoAtualForte += 0.1;
-        document.body.style.fontSize = '${tamanhoAtualForte}rem'
+        document.body.style.fontSize = '${tamanhoAtualForte}rem';
      })
      diminuiForteBotao.addEventListener('click', function(){
         tamanhoAtualForte -= 0.1;
-        document.body.style.fontSize = '$(tamanhoAtualForte}rem'
+        document.body.style.fontSize = '$(tamanhoAtualForte}rem';
      })    
 })
