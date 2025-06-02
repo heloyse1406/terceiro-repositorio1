@@ -1,62 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --cor-principal:#00268C;
-    --cor1:#0078c7;
-    --cor2:#009bca;
-    --cor3:#00bdc1;
-    --cor4:#0fd5be;
-    --cor5:#03db8c;
-    --preto:#000000;
-    --branco:#FFFFFF;
+    --cor-principal: #00268C;
+    --cor1: #0078c7;
+    --cor2: #009bca;
+    --cor3: #00bdc1;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --cor4: #03db8c;
 }
 
 body {
     font-size: 1rem;
-    font-family:Playfair+Display; /*o nome da sua fonte*/
+    font-family: 'Montserrat'; /*o nome da sua fonte*/
 }
 
-section{
+section {
     padding-bottom: 5rem;
 }
 
 header {
-    background-color: var(--cor5);
+    background-color: var(--cor4);
+}
+
+.nav-imagem {
+    
 }
 
 .nav-link {
-    color:var(--branco);
+    color: var(--branco);
     font-weight: 600;
 }
 
-.inicio-fundo{
+.inicio-fundo {
     background-image: url(img/rio.jpg);
-    background-size: cover ;
+    background-size: cover;
     background-position: right;
     border-radius: 80px;
     width: 100%;
-    height: 606px;;
+    height: 606px;
     padding: 40px;
     margin: 0 auto;
 }
 
-.esquerda-conteudo{
+.esquerda-conteudo {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap:1rem;
 }
 
-.botao-inicio{
-    background-color: var(--cor5);
+.botao-inicio {
+    background-color: var(--cor3);
     border-radius: 30px;
-    border: nome;
+    border: none;
     width: 14em;
     height: 3em;
-    align-items: center;
+    align-content: center;
 }
 
-.displa-4 {
+
+.display-4 {
     text-shadow: -5px 5px var(--cor1);
 }
 
@@ -64,40 +68,40 @@ header {
     position: relative;
     padding-top: 5rem;
     margin-top: 3rem;
-    background: var(--branco);
-    background-size: 180px 180px;
+    background: var(--cor2);
+    background-size: 180px 180px; /* Ajuste o tamanho conforme necessário*/
 }
 
-#natureza .conteiner{
+#natureza .container {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    z-index: 1; 
+    z-index: 1; /* Garante que o conteúdo fica acima das imagens de backgronde se houverem */
 }
 
-#contato{
-    background:var(--cor-principal);
+#contato {
+    background: var(--cor-principal);
     background-size: cover;
-    padding: 0cap;
+    padding: 4rem 0;
 }
 
 .formulario{
-   background-color:var(--cor3);
-   padding: 2rem;
-   border-radius: 10px;
-   box-shadow: 0 0 10px #FFFFFF(0,0,0,0.1);
-   font-weight: bold;
+    background-color: var(--branco);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-weight: bold;
 }
 
 .formulario button {
- background-color: var(--cor2);
- border: none;
- fort-weight: bold;
+    background-color: var(--cor2);
+    border: none;
+    font-weight: bold;
 }
 
 .form-control {
-    background-color:var(--cor4);
+    background-color: var(--cor4);
 }
 
 .menu-acessibilidade {
@@ -108,8 +112,8 @@ header {
 }
 
 .rotacao-botao {
-  transform: rotate(-90deg);
-  transform-origin: right center;
+    transform: rotate(-90deg);
+    transform-origin: right center;
 }
 
 .opcoes-acessibilidade {
@@ -119,7 +123,7 @@ header {
 }
 
 .opcoes-acessibilidade button {
-    margin-bottom: 5px; 
+    margin-bottom: 5px;
 }
 
 .apresenta-lista {
@@ -139,13 +143,13 @@ header {
 }
 
 .alto-contraste .nav-link {
-    color: var(--cor5);
+    color: var(--laranja-claro);
 }
 
 .alto-contraste .botao-inicio,
 .alto-contraste .formulario button,
 .alto-contraste .btn-primary {
-    background-color: var(--cor3);
+    background-color: var(--cor1);
     color: var(--preto);
 }
 
@@ -155,8 +159,4 @@ header {
 
 .alto-contraste #galeria {
     background-color: var(--preto);
-}
-
-.alto-contraste .fundo-galeria {
-    background: none;
 }
